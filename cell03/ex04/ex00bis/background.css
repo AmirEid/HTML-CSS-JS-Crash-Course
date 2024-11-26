@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 25%;
+	display: flex;
+}
+button{
+	border: none;
+	padding: 10px 15px;
+	background-color: rgba(7, 70, 70, 0.765);
+	cursor: pointer;
+	color: aliceblue;
+	transition: background-color 0.3s;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+}
+button:hover {
+	background-color: aquamarine;
+	color: black;
+}

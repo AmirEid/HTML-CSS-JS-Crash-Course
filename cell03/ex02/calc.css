@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	display: block;
+	background-color: pink;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 35%;
+}
+h1 {
+	font-style: italic;
+	font-family: monospace;
+}
+.numbers {
+	padding-top: 10px;
+}
+.numbers input {
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 10%;
+	box-shadow: 2px 2px 5px black;
+}
+#operators {
+	padding-top: 10px;
+}
+#operators select {
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 10%;
+	box-shadow: 2px 2px 5px black;
+}
+#operators select option {
+	font-weight: bold;
+	font-size: medium;
+	color: rgb(124, 35, 50);
+	text-align: center;
+	padding: 5px;
+}
+.buttooo{
+	padding-top: 10px;
+}
+.buttooo button {
+	padding: 10px 10px;
+	cursor: pointer;
+	background-color: blueviolet;
+	color: aliceblue;
+	transition: background-color 0.3s;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.buttooo button:hover {
+	background-color: aquamarine;
+	color: black;
+}
